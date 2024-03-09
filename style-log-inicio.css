@@ -131,27 +131,57 @@ main {
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
-.login button {
-    width: 300px;
-    height: 40px;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
-    font-family: "Bebas Neue", sans-serif;
+
+.login p {
+    font-size: 12px;
     letter-spacing: 0.1em;
-    font-size: 18px;
-    background-color: #fff; 
-    color: #053746; 
-    border: none; 
 }
 
-.login button:hover {
-    background-color: #053746;
-    color: #fff;
+.h1-login {
+    font-size: 40px;
 }
 
 .login img {
+    width: 40px;
     padding: 10px;
     margin: 10px;
+}
+
+.identidad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+
+#form-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#form-login input {
+    width: 150%;
+    height: 20px;
+    margin: 6px;
+}
+
+#form-login button {
+    width: 155%;
+    height: 40px;
+    background-color: #0b7f8a; /* Color de fondo */
+    border: none; /* Elimina el borde */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-decoration: none; /* Elimina subrayado en caso de ser un enlace */
+    display: inline-block;
+    font-size: 16px; /* Tamaño del texto */
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer; /* Cursor al pasar por encima */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra */
+    transition: background-color 0.3s;
 }
 

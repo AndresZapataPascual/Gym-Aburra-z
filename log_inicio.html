@@ -8,9 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./Imagenes/icono.png" type="image/x-icon">
-    <link rel="stylesheet" href="style-login.css">
+    <link rel="stylesheet" href="style-log-inicio.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="APP.js" ></script>
+    <script src="login.js" ></script>
     <title>VALLE VITALITY</title>
 </head>
 <body>
@@ -29,11 +29,18 @@
 
     <main>
         <section class="login">
-            <h1 class="h1-login">VALLE VITALITY</h1>
-            <img class="img-header" src="./Imagenes/login.png">
-            <button class="crear-cuenta" onclick="crearcuenta('log_crear.html')">Crear Cuenta</button>
-            <button class="iniciar-seccion" onclick="iniciarSesion('log_inicio.html')">Iniciar Seccion</button>
-            <p><a href="">Terminos & Condiciones</a></p>
+            <section class="identidad">
+                <h1 class="h1-login">LOGIN</h1>
+                <img class="img-header" src="./Imagenes/login.png">
+            </section>
+            <p>Porfavor ingresa tu Email y Contraseña</p>
+            <form id="form-login">
+                <input id="email" type="text" placeholder="Email" autocomplete="email">
+                <input id="contrasena" type="text" placeholder="Contraseña">
+                <button>Iniciar Seccion </button>
+                <p>No tienes una cuenta? <a href="log_crear.html">Creala</a></p>
+            </form>
+
         </section>
     </main>
     
