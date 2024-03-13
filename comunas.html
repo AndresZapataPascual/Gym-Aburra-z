@@ -27,6 +27,13 @@
         </section>
     </header>
 
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo",window.scrollY>120);
+        });
+    </script>
+
     <main>
         <!--columna 1-->
         <section class="columna1">

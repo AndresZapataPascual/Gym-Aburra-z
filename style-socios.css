@@ -45,23 +45,22 @@ header {
     position: fixed;
     width: 100%;
     background-color: rgba(40, 55, 71, 0.11);
-    height: 15%;
+    height: 80px;
     align-items: center;
     justify-content: space-around;
     color: white;
     transition: 0.5s;
-    margin-bottom: 10px;
 }
 
 
 .h1-header {
     font-weight: 600;
-    width: 20%;
 }
 
 .img-header {
-    max-height: 100%;
-    width: 6%;
+    max-width: 80px;
+    max-height: 80px;
+    
 }
 
 ul li {
@@ -125,9 +124,9 @@ main {
     background-color: rgba(1,84,100,255);
     border-radius: 40px;
     width: 30%;
-    height: 50%;
-    margin-top: 60px;
+    height: 60%;
     margin-bottom: 45px;
+    padding: 20px;
     position: fixed; 
     top: 50%; 
     left: 50%; 
@@ -157,27 +156,28 @@ main {
     justify-content: center;
 }
 
-.form-inicio {
+.form-login {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 15px;
+    width: 55%;
 }
 
-.form-inicio input {
-    border-radius: 15px;
+.form-login input {
+    border-radius: 20px;
     width: 150%;
     height: 40px;
     margin: 6px;
 }
-.form-inicio button {
+
+.form-login button {
     width: 150%;
     height: 40px;
-    background-color: #fff; 
+    background-color: #fff;
     border: none; 
     color: black; 
     text-align: center; 
-    text-decoration: none; 
     display: inline-block;
     letter-spacing: 0.11em;
     font-family: "Bebas Neue", sans-serif;
@@ -190,8 +190,8 @@ main {
     transition: background-color 0.3s;
 }
 
-.form-inicio button:hover {
-    background-color:#053746;
+.form-login button:hover {
+    background-color:#475f65;
     color: #fff;
 }
 

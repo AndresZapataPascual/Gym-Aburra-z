@@ -18,9 +18,7 @@ li, a {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 0.15em;
 }
-body h2,h3,h4 {
-    color: #25e1d3;
-}
+
 body h1,h2,h3,h4 {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 0.15em;
@@ -39,7 +37,7 @@ body h1,h2,h3,h4 {
   }
   
 
-header {
+  header {
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -133,14 +131,37 @@ main {
     text-align: center;
     justify-content: center;
     font-size: 20px;
+
     padding-top: 40px;
-    color: #fff;
     min-height: 100%;
     width: 100%;
     padding-top: 150px;
     margin: 0;
+    padding-bottom: 100px;
 }
 
+
+.com1, .com2, .com3, .com4,
+.com5, .com6, .com7, .com8,
+.com9, .com10, .com11, .com12,
+.com13, .com14, .com15, .com16 {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10); 
+    width: 100%;
+    margin: 10px;
+}
+
+.com1:hover, .com2:hover, .com3:hover, .com4:hover,
+.com5:hover, .com6:hover, .com7:hover, .com8:hover, 
+.com9:hover, .com10:hover, .com11:hover, .com12:hover, 
+.com13:hover, .com14:hover, .com15:hover, .com16:hover {
+    background-color:#053746;
+    color: #FFF;
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px;
+}
 
 .columna1 {
     display: flex;
@@ -149,17 +170,7 @@ main {
     justify-content:space-evenly;
     margin: 10px;
     width: 90%;
-    height: 200px;
     padding: 10px;
-}
-
-.com1, .com2, .com3, .com4 {
-    background-color: #FFF;
-    align-items: center;
-    border-radius: 20px;
-    width: 100%;
-    height: 200px;
-    margin: 10px;
 }
 
 .columna2 {
@@ -172,12 +183,6 @@ main {
     padding: 10px;
 }
 
-.com5, .com6, .com7, .com8 {
-    background-color: #FFF;
-    border-radius: 20px;
-    width: 100%;
-    margin: 10px;
-}
 
 .columna3 {
     display: flex;
@@ -187,13 +192,6 @@ main {
     margin: 10px;
     width: 90%;
     padding: 10px;
-}
-
-.com9, .com10, .com11, .com12 {
-    background-color: #FFF;
-    border-radius: 20px;
-    width: 100%;
-    margin: 10px;
 }
 
 .columna4 {
@@ -206,12 +204,7 @@ main {
     padding: 10px;
 }
 
-.com13, .com14, .com15, .com16 {
-    background-color: #FFF;
-    border-radius: 20px;
-    width: 100%;
-    margin: 10px;
-}
+
 
 footer {
     display: flex;
@@ -219,7 +212,8 @@ footer {
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.914);
     color: black;
-    padding: 10px;  
+    padding: 10px; 
+    height: 30vh;
     align-items: center;
     justify-content: center;
     bottom: 0;
@@ -234,7 +228,6 @@ footer h2 {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 60px;
 }
 
 .nombre-footer {
