@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="./Imagenes/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="style-log-inicio.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="inicio.js" ></script>
+    <script src="login.js" ></script>
     <title>VALLE VITALITY</title>
 </head>
 <body>
@@ -35,10 +35,10 @@
             </section>
             <p>Porfavor ingresa tu Email y Contraseña</p>
             <form class="form-inicio" id="form-inicio">
-                <input id="email" type="text" placeholder="Email" autocomplete="email">
+                <input id="usuario" type="text" placeholder="Email" autocomplete="email">
                 <input id="contrasena" type="text" placeholder="Contraseña" >
                 <br>
-                <button type="submit">INICIAR SESIÓN</button>
+                <button type="submit" onclick="validarInicioSesion()">INICIAR SESIÓN</button>
                 <p>No tienes una cuenta? <a href="log_crear.html">Creala</a></p>
             </form>
 
