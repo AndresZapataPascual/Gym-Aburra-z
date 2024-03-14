@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./Imagenes/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-crear-socio.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="login.js" ></script>
+    <title>VALLE VITALITY</title>
+</head>
+<body>
+    <header>
+        <img class="img-header" src="./Imagenes/icono.png">
+        <h1 class="h1-header"> VALLE VITALITY</h1>
+        <section class="menu">
+            <ul class="lista">
+                <li><a href="index.html">Inicio</a></li>  
+                <li><a href="comunas.html">Comunas</a></li>
+                <li><a href="socios.html">Socios</a></li>
+                <li><a href="login.html">Iniciar sesion</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <section class="socios">
+            <form action="" class="form-socios">
+                <section class="identidad">
+                    <h1 class="h1-login">LOGIN SOCIOS</h1>
+                    <img class="img-header" src="./Imagenes/login.png">
+                </section>
+                <p>Porfavor ingrese todos los datos del administrador y la empresa.</p>
+                <input id="nombre" type="text" placeholder="  Ingresa tu nombre" autocomplete="name">
+                <input id="telefono" type="number" placeholder="  Ingresa tu telefono" autocomplete="tel">
+                <input type="number" placeholder="  Ingresa tu edad" >
+                <input id="nombre-emprendimiento" type="text" placeholder="Nombre del emprendimiento/Tienda/Gimnasio">
+                <select id="tipo-emprendimiento" >
+                    <option value="none">Seleccione el tipo de Empresa</option>
+                    <option value="Tienda deportiva">Tienda deportiva</option>
+                    <option value="Gimnasio">Gimnasio</option>
+                    <option value="Emprendimiento">Emprendimiento</option>
+                    <option value="Tienda saludable">Tienda saludable</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                <input id="email" type="text" placeholder="  Ingresa tu email" autocomplete="email">
+                <input id="contrasena" type="text" placeholder="  Ingresa tu contraseña">
+                <input id="re-contra" type="text" placeholder="  Rectifica tu contraseña">
+                <br>
+                <button type="submit">¡UNIRSE!</button>
+                <p>Ya tienes una cuenta? <a href="log_inicio.html">Inicia Sesión</a></p>
+            </form>
+
+        </section>
+    </main>
+    
+</body>
+</html>

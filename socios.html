@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="./Imagenes/icono.png" type="image/x-icon">
     <link rel="stylesheet" href="style-socios.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="login.js" ></script>
+    <script src="APP.js" ></script>
     <title>VALLE VITALITY</title>
 </head>
 <body>
@@ -27,34 +27,19 @@
         </section>
     </header>
 
-    <main>
-        <section class="socios">
-            <form action="" class="form-socios">
-                <section class="identidad">
-                    <h1 class="h1-login">LOGIN SOCIOS</h1>
-                    <img class="img-header" src="./Imagenes/login.png">
-                </section>
-                <p>Porfavor ingrese todos los datos del administrador y la empresa.</p>
-                <input id="nombre" type="text" placeholder="  Ingresa tu nombre" autocomplete="name">
-                <input id="telefono" type="number" placeholder="  Ingresa tu telefono" autocomplete="tel">
-                <input type="number" placeholder="  Ingresa tu edad" >
-                <input id="nombre-emprendimiento" type="text" placeholder="Nombre del emprendimiento/Tienda/Gimnasio">
-                <select id="tipo-emprendimiento" >
-                    <option value="none">Seleccione el tipo de Empresa</option>
-                    <option value="Tienda deportiva">Tienda deportiva</option>
-                    <option value="Gimnasio">Gimnasio</option>
-                    <option value="Emprendimiento">Emprendimiento</option>
-                    <option value="Tienda saludable">Tienda saludable</option>
-                    <option value="Otro">Otro</option>
-                </select>
-                <input id="email" type="text" placeholder="  Ingresa tu email" autocomplete="email">
-                <input id="contrasena" type="text" placeholder="  Ingresa tu contraseña">
-                <input id="re-contra" type="text" placeholder="  Rectifica tu contraseña">
-                <br>
-                <button type="submit">¡UNIRSE!</button>
-                <p>Ya tienes una cuenta? <a href="log_inicio.html">Inicia Sesión</a></p>
-            </form>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("abajo",window.scrollY>150);
+        });
+    </script>
 
+    <main>
+        <section class="login">
+            <img class="img-login" src="./Imagenes/login.png">
+            <button class="crear-cuenta" onclick="crearcuenta('log_crear.html')">Crear Cuenta</button>
+            <button class="iniciar-seccion" onclick="iniciarSesion('log_inicio.html')">Iniciar Sesion</button>
+            <p><a href="">Terminos & Condiciones</a></p>
         </section>
     </main>
     
