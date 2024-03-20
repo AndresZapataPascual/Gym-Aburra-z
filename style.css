@@ -54,7 +54,7 @@ header {
 
 
 header.abajo {
-    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.914);
     color: #023546;
 }
 
@@ -189,7 +189,7 @@ main {
     width: 30%;
     padding: 10px;
 }
-
+¿
 .emprendedores {
     display: flex;
     flex-direction: column;
